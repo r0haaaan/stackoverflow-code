@@ -18,10 +18,10 @@ public class ArraysToMethod {
         // 3. Iterate over input array to copy even values
         //    to result array
         int resultIndex = 0;
-        for (int i = 0; i < inputArr.length && resultIndex < resultArr.length; i++) {
+        for (int j : inputArr) {
             // 4. Check fields which are even and not zero
-            if (isEvenAndNotZero(inputArr[i])) {
-                resultArr[resultIndex] = inputArr[i];
+            if (isEvenAndNotZero(j)) {
+                resultArr[resultIndex] = j;
                 resultIndex++;
             }
         }
