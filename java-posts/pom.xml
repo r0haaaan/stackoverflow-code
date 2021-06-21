@@ -26,7 +26,7 @@
         <junit.version>4.13.1</junit.version>
         <json.version>20201115</json.version>
         <jackson.version>2.11.2</jackson.version>
-        <fabric8.version>5.2.1</fabric8.version>
+        <fabric8.version>5.4.1</fabric8.version>
         <strimzi.api.version>0.22.0</strimzi.api.version>
     </properties>
 
